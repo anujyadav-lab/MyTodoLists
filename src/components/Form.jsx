@@ -53,8 +53,10 @@ const Form = ({ input, setInput, todos, setTodos, editTodo, setEditTodo }) => {
       <button className="button-add" type="submit">
         {editTodo ? "Ok" : "Add"}
       </button>
+
     </form>
   );
+
   
 };
 export default Form;

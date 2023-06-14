@@ -21,6 +21,7 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
   const handleDelete = ({ id }) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
+  
 
   return (
     <div>

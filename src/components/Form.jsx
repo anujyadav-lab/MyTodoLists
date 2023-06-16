@@ -2,12 +2,7 @@ import { useEffect } from "react";
 import { v4 as uuidV4 } from "uuid"; //imported this because i wanted to add unique id to my list items.
 
 const Form = ({ input, setInput, todos, setTodos, editTodo, setEditTodo }) => {
-  // const [uuid, setUuid] = useState('');
 
-  // const generateUuid = () =>{
-  //   const newUuid = uuidV4();
-  //   setUuid(newUuid)
-  // }
 
   useEffect(() => {
     if (editTodo) {

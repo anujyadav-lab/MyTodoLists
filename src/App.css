@@ -24,6 +24,7 @@
 
 }
 
+
 .header h1{
     color: #fff;
     text-align: center;
@@ -102,14 +103,11 @@ color: rgb(102, 229, 82);
 }
 
 
-.complete{
-     text-decoration:line-through ;
- 
-    text-decoration-style: solid;
-    /* text-decoration-line:line-through ; */
-    text-decoration-color: #235ef2;
+.completed {
+    text-decoration: line-through;
     opacity: 0.6;
-}
+  }
+  
 
 .list{
     width: 220px;
